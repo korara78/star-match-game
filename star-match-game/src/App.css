@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+.body {
+  display: flex;
+}
+
+.help {
+  font-size: 1.25em;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.left {
+  text-align: center;
+  flex: 50%;
+  border: thin solid rgb(46, 217, 243);
+  background-color: #3c3b6e;
+}
+
+.right {
+  text-align: center;
+  padding: 10px;
+  flex: 50%;
+  border: thin solid rgb(238, 12, 118);
+}
+
+.star {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+/* \272F is CSS code for a pinwheel star */
+.star:after {
+  content: "\272F";
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.number {
+  background-color: #eee;
+
+  border: solid #b22234;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+.number:focus,
+.number:active {
+  outline: none;
+  border: thin solid #ddd;
+}
+
+.timer {
+  color: #666;
+  font: 800 40px system-ui;
+  margin-top: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+.game-done .message {
+  font-size: 250%;
+  font-weight: bold;
+  margin: 15px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  .game {
+    width: 100%;
+  }
+
+  .body {
+    width: 100%;
+    background-color: red;
+  }
+
+  .star {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 1.8rem;
+  }
+}

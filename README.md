@@ -20,7 +20,7 @@ This app is published at https://korara78.github.io/star-match-game/
 
 -The body of the application is split into the 'left' side and 'right' side elements. The left side contains stars while the right contains number buttons. 
 
--@media Screen with max-width: 768px allows the application to be responsive for smart phones. The app maintains 100% width. The right side of the body will contain a background color of red to denote a smaller screen is being used as well as providing better contrast. T
+-@media Screen with max-width: 768px allows the application to be responsive for smart phones. The app maintains 100% width. The right side of the body will contain a background color of red to denote a smaller screen is being used as well as providing better contrast. 
 
 
 # Getting Started with Create React App

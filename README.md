@@ -8,6 +8,8 @@
 
 This app is published at https://korara78.github.io/star-match-game/
 
+If github-pages is down check app on code pen https://codepen.io/kevin-orara/full/qBjaWqp
+
 ## Logic
 
 -The parent function component called StarMatch controls the state of gameID's as to refresh the state of the app upon each new game.
